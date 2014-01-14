@@ -7,7 +7,7 @@ section.col-xs-12.col-md-10.wide.content(ng-controller="SecurityCtrl")
     li – Never share them!
   .title
     .icon.wallet
-    .name Wallet Key
+    .name Portfolio Key
     .more
       span {{userBlob.data.contacts.length}} contacts,&nbsp;
         span {{enc.length | rpfilesize}} &ensp;
@@ -18,14 +18,14 @@ section.col-xs-12.col-md-10.wide.content(ng-controller="SecurityCtrl")
         | .
   ul.description(ng-hide="showKeys")
     li This is the key you use every time you use dshare.
-    li You created it when you chose your Wallet Name and Passphrase.
+    li You created it when you chose your Portfolio Name and Passphrase.
     li It protects Your money + Your contacts and history.
     li
       b Never forget it, never share it.
   div
     .infoBox(ng-show="showKeys")
       .part
-        span.label Wallet name:
+        span.label Portfolio name:
         span.value {{userCredentials.username}}
       .part
         span.label Pass Phrase:

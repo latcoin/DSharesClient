@@ -56,7 +56,7 @@ module.factory('rpOldBlob', ['$rootScope', function ($scope)
             if (data) {
               callback(null, data);
             } else {
-              handleError('Wallet not found (Username / Password is wrong)', backend);
+              handleError('Portfolio not found (Username / Password is wrong)', backend);
             }
           });
         });
