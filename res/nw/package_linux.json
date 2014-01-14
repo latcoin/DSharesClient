@@ -1,0 +1,8 @@
+{
+  "main": "index.html",
+  "name": "ripple-client-nw-linux",
+  "description": "Standalone DShare Client Linux using Node Webkit",
+  "window": {
+    "toolbar": false
+  }
+}

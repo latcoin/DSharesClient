@@ -1,0 +1,55 @@
+{
+  "name": "ripple-client",
+  "version": "0.2.40",
+  "description": "Client for the DShare payment network",
+  "author": {
+    "name": "DShare Labs, Inc.",
+    "email": "info@dshare.com",
+    "url": "https://dshare.com/"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "extend": "~1.2.1",
+    "grunt": "~0.4.1",
+    "grunt-webpack": "~0.10.5",
+    "grunt-recess": "~0.3.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-watch": "~0.4.4",
+    "jade-loader": "~0.5.1",
+    "jshint-loader": "~0.5.0",
+    "webpack": "~0.10.0-beta24",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-preprocess": "~3.0.1",
+    "jade": "~0.35.0",
+    "jsdom": "~0.8.2",
+    "node-po": "~0.1.2"
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start test/karma.conf.js --single-run --browsers Firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dshare/Latclient.git"
+  },
+  "readmeFilename": "README",
+  "devDependencies": {
+    "karma": "~0.10.4",
+    "karma-sinon-chai": "~0.1.1",
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.3",
+    "karma-requirejs": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-mocha": "~0.1.0",
+    "karma-ng-scenario": "~0.1.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-concurrent": "~0.4.1",
+    "sinon-chai": "~2.4.0",
+    "sinon":"~1.7.3"
+  }
+}

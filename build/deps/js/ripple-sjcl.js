@@ -1,0 +1,1 @@
+window.sjcl=ripple.sjcl;

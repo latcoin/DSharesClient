@@ -1,0 +1,239 @@
+@statusWidth: 350px;
+@notifyMargin: 3px;
+
+#status {
+  position: absolute;
+  top: 18px;
+  right: @grid-gutter-width/2;
+  width: @statusWidth;
+  height: 81px;
+  background-color: #fff;
+  .rounded(5px);
+  border: 1px solid #ccc;
+  z-index: 20;
+
+  .nav-toggle {
+    display: none;
+    font-size: 30px;
+    text-align: center;
+
+    a {
+      display: block;
+      margin: 20px 0px;
+      cursor: pointer;
+      color: #333;
+    }
+  }
+
+  @media (max-width: @screen-sm-max) {
+    top: 0;
+    width: 100%;
+    .rounded(0 0 5px 5px);
+    border-top: none;
+
+    .nav-toggle {
+      display: block;
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    .rounded(0);
+    border-left: none;
+    border-right: none;
+  }
+
+  .user {
+    line-height: 40px;
+
+    .tooltip {
+      line-height: 20px;
+    }
+
+    .fa-question-circle {
+      display: inline-block;
+      margin: 12px 0 0 5px;
+      cursor: pointer;
+      color: #888;
+    }
+
+    .logout {
+      text-align: right;
+    }
+
+    .balances {
+      border-top: 1px solid #DADADA;
+    }
+  }
+
+  .balance {
+    font: 17px 'OpenSansLight';
+    color: #333;
+
+    .currency {
+      margin-left: 3px;
+      font-size: 11px;
+    }
+  }
+
+  ul.secondary {
+    padding: 0;
+    list-style-type: none;
+    background-color: #fff;
+    .border-radius(0, 10px, 10px, 0);
+    margin: 0 -@grid-gutter-width/2;
+
+    li {
+      text-align: right;
+      padding-left: 4px;
+      padding-right: 35px;
+      display: none;
+    }
+
+    li.negative {
+      color: #f00;
+    }
+
+    // When not expanded we only show the first secondary currency.
+    li:first-child {
+      border-left: 1px solid #DADADA;
+      display: block;
+      line-height: 36px;
+    }
+  }
+
+  .toggle-secondary {
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+
+    // Dropdown arrow
+    &:after {
+      .virtualel;
+      display: block;
+      width: 14px;
+      border: 7px solid transparent;
+      border-top: 8px solid #888;
+      content: "";
+    }
+  }
+
+  &.expand {
+    // Removing the bottom right corner when the secondary currencies are
+    // expanded provides a smoother transition between the box shadows.
+    .border-radius(5px, 0, 5px, 5px);
+
+    // Show all secondary currencies
+    ul.secondary {
+      border-top: none;
+      border: 1px solid #d9d9d9;
+      margin: 0 -@grid-gutter-width/2-1 0 -@grid-gutter-width/2;
+
+      li {
+        border: none;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+#notification {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: @statusWidth;
+
+  .notification {
+    position: absolute;
+    .rounded(5px);
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 5px 5px;
+    z-index: 5;
+    text-align: center;
+    line-height: 20px;
+    .transition-duration(0.2s);
+
+    .number {
+      font-size: 18px;
+    }
+
+    .currency {
+      font-size: 12px;
+    }
+
+    &.active {
+      top: 40px;
+    }
+
+    &.type-success {
+      background-color: #8DC86A;
+    }
+
+    &.type-info {
+      background-color: #7898CA;
+    }
+
+    &.type-warning {
+      background-color: #F1CE42;
+    }
+
+    &.type-error {
+      background-color: #DC4D38;
+    }
+
+    &.type-offline {
+      font-weight: bold;
+      color: #fff;
+      background-color: #000;
+    }
+  }
+
+  @media (max-width: @screen-sm-max) {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 100;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+    .notification {
+      top: -200px;
+      padding: 20px;
+      padding-left: 10%;
+      padding-right: 10%;
+      font-size: 20px;
+      font-family: OpenSansRegular;
+      line-height: 30px;
+      opacity: 0;
+
+      .number {
+        font-size: 20px;
+      }
+
+      .currency {
+        font-size: 20px;
+      }
+
+      &.active {
+        top: 0;
+        opacity: 0.9;
+      }
+    }
+  }
+}
+
+#status-anon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../img/options.png');
+  span {
+    display: none;
+  }
+}
