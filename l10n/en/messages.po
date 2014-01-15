@@ -652,8 +652,8 @@ msgid "Read more"
 msgstr "Read more"
 
 #: src/jade/tabs/login.jade:35
-msgid "Fetch wallet from"
-msgstr "Fetch wallet from"
+msgid "Fetch account from"
+msgstr "Fetch account from"
 
 #: src/jade/tabs/login.jade:39 src/jade/tabs/login.jade:93
 #: src/jade/tabs/register.jade:42
@@ -669,8 +669,8 @@ msgid "New to dshare?&nbsp; {{1}}"
 msgstr "New to dshare?&nbsp; {{1}}"
 
 #: src/jade/tabs/login.jade:45 src/jade/tabs/login.jade:103
-msgid "Create a wallet"
-msgstr "Create a wallet"
+msgid "Create an account"
+msgstr "Create an account"
 
 #: src/jade/tabs/login.jade:49
 msgid "Transaction summary"
@@ -713,8 +713,8 @@ msgid "To your dshare contacts"
 msgstr "To your dshare contacts"
 
 #: src/jade/tabs/login.jade:98 src/jade/tabs/register.jade:47
-msgid "Open wallet"
-msgstr "Open wallet"
+msgid "Open account"
+msgstr "Open account"
 
 #: src/jade/tabs/login.jade:99
 msgid "You can confirm this transaction on the next page."
@@ -825,8 +825,8 @@ msgid "Create Portfolio"
 msgstr "Create Portfolio"
 
 #: src/jade/tabs/register.jade:45
-msgid "Have a wallet already?&nbsp; {{1}} {{2}} {{3}}"
-msgstr "Have a wallet already?&nbsp; {{1}} {{2}} {{3}}"
+msgid "Have an account already?&nbsp; {{1}} {{2}} {{3}}"
+msgstr "Have an account already?&nbsp; {{1}} {{2}} {{3}}"
 
 #: src/jade/tabs/register.jade:49
 msgid "Need to use your Secret Key?&nbsp; {{1}}"
@@ -842,14 +842,14 @@ msgstr "Secret Account Key error"
 
 #: src/jade/tabs/register.jade:55
 msgid ""
-"There is a wallet with your wallet name and passphrase, but the given Secret "
+"There is an account with your account name and passphrase, but the given Secret "
 "Account Key is not connected to it. If you decide to continue registration "
-"your new Secret Account Key will be used for current wallet name and pass "
+"your new Secret Account Key will be used for current account name and pass "
 "phrase."
 msgstr ""
-"There is a wallet with your wallet name and passphrase, but the given Secret "
+"There is an account with your account name and passphrase, but the given Secret "
 "Account Key is not connected to it. If you decide to continue registration "
-"your new Secret Account Key will be used for current wallet name and pass "
+"your new Secret Account Key will be used for current account name and pass "
 "phrase."
 
 #: src/jade/tabs/register.jade:57 src/jade/tabs/register.jade:65
@@ -866,12 +866,12 @@ msgstr "Existing account error"
 
 #: src/jade/tabs/register.jade:63
 msgid ""
-"There is a wallet with a similar wallet name and passphrase, but this wallet "
-"could not be decrypted. Try choosing a different wallet name and/or "
+"There is an account with a similar account name and passphrase, but this account "
+"could not be decrypted. Try choosing a different account name and/or "
 "passphrase."
 msgstr ""
-"There is a wallet with a similar wallet name and passphrase, but this wallet "
-"could not be decrypted. Try choosing a different wallet name and/or "
+"There is an account with a similar account name and passphrase, but this account "
+"could not be decrypted. Try choosing a different account name and/or "
 "passphrase."
 
 #: src/jade/tabs/register.jade:68
@@ -885,16 +885,16 @@ msgstr "Important:"
 #: src/jade/tabs/register.jade:70
 msgid ""
 "The Secret Account Key below gives access to your money in the unlikely case "
-"that you lose your wallet name or passphrase. In that case your contacts "
+"that you lose your account name or passphrase. In that case your contacts "
 "will be lost, but with this Secret Account Key alone anyone can retrieve "
 "your money. So please store it somewhere PRIVATE AND SAFE. Read more about "
-"keys and wallet safety in&nbsp; {{1}}"
+"keys and account safety in&nbsp; {{1}}"
 msgstr ""
 "The Secret Account Key below gives access to your money in the unlikely case "
-"that you lose your wallet name or passphrase. In that case your contacts "
+"that you lose your account name or passphrase. In that case your contacts "
 "will be lost, but with this Secret Account Key alone anyone can retrieve "
 "your money. So please store it somewhere PRIVATE AND SAFE. Read more about "
-"keys and wallet safety in&nbsp; {{1}}"
+"keys and account safety in&nbsp; {{1}}"
 
 #: src/jade/tabs/register.jade:75
 msgid "Portfolio name: {{1}}"
@@ -930,10 +930,10 @@ msgstr "Yes, I saved my secret account key"
 
 #: src/jade/tabs/security.jade:3
 msgid ""
-"Your money and wallet are protected digitally through encryption algorithms "
+"Your money and account are protected digitally through encryption algorithms "
 "that can be unlocked&nbsp; {{1:only with your personal keys}}"
 msgstr ""
-"Your money and wallet are protected digitally through encryption algorithms "
+"Your money and account are protected digitally through encryption algorithms "
 "that can be unlocked&nbsp; {{1:only with your personal keys}}"
 
 #: src/jade/tabs/security.jade:6
@@ -992,10 +992,10 @@ msgstr "Hide"
 
 #: src/jade/tabs/security.jade:37
 msgid ""
-"This gives access to your wallet. DO NOT SHARE THIS WITH ANYONE. Keep it "
+"This gives access to your account. DO NOT SHARE THIS WITH ANYONE. Keep it "
 "safe. Keep it private."
 msgstr ""
-"This gives access to your wallet. DO NOT SHARE THIS WITH ANYONE. Keep it "
+"This gives access to your account. DO NOT SHARE THIS WITH ANYONE. Keep it "
 "safe. Keep it private."
 
 #: src/jade/tabs/security.jade:41
@@ -1013,17 +1013,17 @@ msgstr ""
 #: src/jade/tabs/security.jade:44
 msgid ""
 "The Secret Key accesses Your money, which is already contained inside your "
-"wallet."
+"account."
 msgstr ""
 "The Secret Key accesses Your money, which is already contained inside your "
-"wallet."
+"account."
 
 #: src/jade/tabs/security.jade:45
 msgid ""
-"But if you ever lose your wallet, you can recover just your money with this "
+"But if you ever lose your account, you can recover just your money with this "
 "key."
 msgstr ""
-"But if you ever lose your wallet, you can recover just your money with this "
+"But if you ever lose your account, you can recover just your money with this "
 "key."
 
 #: src/jade/tabs/security.jade:47
@@ -1184,8 +1184,8 @@ msgid "Destination does not exist"
 msgstr "Destination does not exist"
 
 #: src/jade/tabs/send.jade:125
-msgid "The wallet you&#39;re trying to send to does not exist."
-msgstr "The wallet you&#39;re trying to send to does not exist."
+msgid "The account you&#39;re trying to send to does not exist."
+msgstr "The account you&#39;re trying to send to does not exist."
 
 #: src/jade/tabs/send.jade:132
 msgid "Please ensure you don't send your payment more than once."

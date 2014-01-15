@@ -26,7 +26,7 @@ section.col-xs-12.content(ng-controller="LoginCtrl")
                   | Open Portfolio
               .col-xs-12.col-sm-5.col-md-4
                 .storageinfo
-                  span.fetch Fetch wallet from
+                  span.fetch Fetch account from
                   span(ng-hide="storeChange")
                     strong {{blobBackendCollection.something.name}}&nbsp;
                     a(href="", ng-click="storeChange=true") change
@@ -37,7 +37,7 @@ section.col-xs-12.content(ng-controller="LoginCtrl")
           .col-xs-12
             p.literal
               | New to dshare?&nbsp;
-              a(href='#register') Create a wallet
+              a(href='#register') Create an account
 
   .row.action-login(ng-show="$routeParams.tab")
     h1(ng-show="'send' == $routeParams.tab") Transaction summary
@@ -95,4 +95,4 @@ section.col-xs-12.content(ng-controller="LoginCtrl")
           | You can confirm this transaction on the next page.
         p.literal
           | New to dshare?&nbsp;
-          a(href='#/register') Create a wallet
+          a(href='#/register') Create an account
