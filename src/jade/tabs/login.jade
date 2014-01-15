@@ -1,11 +1,11 @@
 section.col-xs-12.content(ng-controller="LoginCtrl")
 
   .row.normal-login(ng-hide="$routeParams.tab")
-    h1 Open Portfolio
+    h1 Open Account
     .col-sm-10.col-sm-offset-1
       .row
         .col-xs-12
-          p.literal Enter the Name and Passphrase used to encrypt your Portfolio below.
+          p.literal Enter the Name and Passphrase used to encrypt your account below.
       form(name='loginForm', ng-submit='submitForm()')
         .row
           .col-xs-12.col-sm-6.col-md-5
@@ -23,7 +23,7 @@ section.col-xs-12.content(ng-controller="LoginCtrl")
               .col-xs-12.col-sm-6.col-md-5
                 button.btn.btn-lg.btn-submit.btn-block.btn-primary(type='submit', ng-disabled="loginForm.$invalid || ajax_loading")
                   span.spinner(ng-show="ajax_loading", rp-spinner="4")
-                  | Open Portfolio
+                  | Open Account
               .col-xs-12.col-sm-5.col-md-4
                 .storageinfo
                   span.fetch Fetch account from
@@ -90,7 +90,7 @@ section.col-xs-12.content(ng-controller="LoginCtrl")
           .col-xs-12
             button.btn.btn-lg.btn-submit.btn-block.btn-primary(type='submit', ng-disabled="loginForm.$invalid || ajax_loading")
               span.spinner(ng-show="ajax_loading", rp-spinner="4")
-              | Open Portfolio
+              | Open Account
         p.literal.hint
           | You can confirm this transaction on the next page.
         p.literal

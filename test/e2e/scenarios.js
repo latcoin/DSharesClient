@@ -23,7 +23,7 @@ describe('ripple client', function() {
 
     it('should render login when user navigates to /login', function() {
       expect(element('[ng-view] p:first').text()).
-        toMatch(/Enter the Name and Passphrase used to encrypt your Portfolio below/);
+        toMatch(/Enter the Name and Passphrase used to encrypt your account below/);
     });
 
   });
