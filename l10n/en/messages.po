@@ -616,16 +616,16 @@ msgstr ""
 "amount | rpcurrency}}"
 
 #: src/jade/tabs/login.jade:4 src/jade/tabs/login.jade:33
-msgid "Open Portfolio"
-msgstr "Open Portfolio"
+msgid "Open Account"
+msgstr "Open Account"
 
 #: src/jade/tabs/login.jade:5
-msgid "Enter the Name and Passphrase used to encrypt your Portfolio below."
-msgstr "Enter the Name and Passphrase used to encrypt your Portfolio below."
+msgid "Enter the Name and Passphrase used to encrypt your account below."
+msgstr "Enter the Name and Passphrase used to encrypt your account below."
 
 #: src/jade/tabs/login.jade:8 src/jade/tabs/login.jade:79
-msgid "Portfolio name"
-msgstr "Portfolio name"
+msgid "Account name"
+msgstr "Account name"
 
 #: src/jade/tabs/login.jade:10 src/jade/tabs/login.jade:88
 msgid "Passphrase"
@@ -638,10 +638,10 @@ msgstr "Reminder: {{1}}"
 #: src/jade/tabs/login.jade:17
 msgid ""
 "You are responsible for your login information. {{1}} DShare {{2}} recover "
-"your Portfolio Name or Passphrase if you forget them!"
+"your account Name or Passphrase if you forget them!"
 msgstr ""
 "You are responsible for your login information. {{1}} DShare {{2}} recover "
-"your Portfolio Name or Passphrase if you forget them!"
+"your account Name or Passphrase if you forget them!"
 
 #: src/jade/tabs/login.jade:23
 msgid "Write down your Security Key.&nbsp {{1}}"
@@ -764,37 +764,37 @@ msgstr "Copy Address"
 #: src/jade/tabs/register.jade:4
 #, fuzzy
 msgid ""
-"DShare is a global open payments system — a fast, easy way to send any kind "
-"of money to anyone in the world."
+"DShare is a global investment system — a fast, easy and very liquid way to invest in companies "
+"anywhere in the world."
 msgstr ""
-"DShare is a global open payments system  a fast, easy way to send any kind "
-"of money to anyone in the world."
+"DShare is a global investment system — a fast, easy and very liquid way to invest in companies "
+"anywhere in the world."
 
 #: src/jade/tabs/register.jade:6
 msgid ""
-"Your Portfolio is only as safe as your Portfolio Name and Passphrase, used to "
-"encrypt your Portfolio data. Choose a Passphrase you can easily remember but "
+"Your account is only as safe as your account Name and Passphrase, used to "
+"encrypt your account data. Choose a Passphrase you can easily remember but "
 "others cannot guess. Hint: Mix letters, numbers, and symbols."
 msgstr ""
-"Your Portfolio is only as safe as your Portfolio Name and Passphrase, used to "
-"encrypt your Portfolio data. Choose a Passphrase you can easily remember but "
+"Your account is only as safe as your account Name and Passphrase, used to "
+"encrypt your account data. Choose a Passphrase you can easily remember but "
 "others cannot guess. Hint: Mix letters, numbers, and symbols."
 
 #: src/jade/tabs/register.jade:9
 msgid ""
-"Only you have this Portfolio Name and Passphrase and are responsible for their "
+"Only you have this account Name and Passphrase and are responsible for their "
 "safekeeping. DShare cannot recover them if you forget them!"
 msgstr ""
-"Only you have this Portfolio Name and Passphrase and are responsible for their "
+"Only you have this account Name and Passphrase and are responsible for their "
 "safekeeping. DShare cannot recover them if you forget them!"
 
 #: src/jade/tabs/register.jade:13
-msgid "Create Portfolio Name"
-msgstr "Create Portfolio Name"
+msgid "Create Account Name"
+msgstr "Create Account Name"
 
 #: src/jade/tabs/register.jade:17
-msgid "Create Portfolio Passphrase"
-msgstr "Create Portfolio Passphrase"
+msgid "Create Account Passphrase"
+msgstr "Create Account Passphrase"
 
 #: src/jade/tabs/register.jade:21
 msgid "Re-Enter Passphrase"
@@ -821,8 +821,8 @@ msgid "Secret Account Key is invalid"
 msgstr "Secret Account Key is invalid"
 
 #: src/jade/tabs/register.jade:36
-msgid "Create Portfolio"
-msgstr "Create Portfolio"
+msgid "Create Account"
+msgstr "Create Account"
 
 #: src/jade/tabs/register.jade:45
 msgid "Have an account already?&nbsp; {{1}} {{2}} {{3}}"
@@ -897,8 +897,8 @@ msgstr ""
 "keys and account safety in&nbsp; {{1}}"
 
 #: src/jade/tabs/register.jade:75
-msgid "Portfolio name: {{1}}"
-msgstr "Portfolio name: {{1}}"
+msgid "Account name: {{1}}"
+msgstr "Account name: {{1}}"
 
 #: src/jade/tabs/register.jade:78
 msgid "Pass phrase: {{1}} {{2}} {{3}} {{4}}"
@@ -947,8 +947,8 @@ msgid "– Never share them!"
 msgstr " Never share them!"
 
 #: src/jade/tabs/security.jade:10
-msgid "Portfolio Key"
-msgstr "Portfolio Key"
+msgid "Account Key"
+msgstr "Account Key"
 
 #: src/jade/tabs/security.jade:12
 msgid "{{userBlob.data.contacts.length}} contacts,&nbsp; {{1}}"
@@ -963,8 +963,8 @@ msgid "This is the key you use every time you use dshare."
 msgstr "This is the key you use every time you use dshare."
 
 #: src/jade/tabs/security.jade:21
-msgid "You created it when you chose your Portfolio Name and Passphrase."
-msgstr "You created it when you chose your Portfolio Name and Passphrase."
+msgid "You created it when you chose your Account Name and Passphrase."
+msgstr "You created it when you chose your Account Name and Passphrase."
 
 #: src/jade/tabs/security.jade:22
 msgid "It protects your money, your contacts and account history."
@@ -975,8 +975,8 @@ msgid "Never forget it, never share it."
 msgstr "Never forget it, never share it."
 
 #: src/jade/tabs/security.jade:28
-msgid "Portfolio name:"
-msgstr "Portfolio name:"
+msgid "Account name:"
+msgstr "Account name:"
 
 #: src/jade/tabs/security.jade:31
 msgid "Pass Phrase:"
