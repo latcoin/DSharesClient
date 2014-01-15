@@ -1,5 +1,5 @@
 /*!
- * DShare Client v29ec9ab-dirty
+ * DShare Client v1e6555c
  * Copyright (c) 2014 DShare Labs, Inc.
  * Licensed under the ISC license.
  */
