@@ -107,7 +107,7 @@ LoginTab.prototype.angular = function (module) {
             $scope.status = 'Login failed:';
 
             if (err.name === "OldBlobError") {
-              popup.confirm("Portfolio Upgrade", "DShare is upgrading the wallet encryption format. After the upgrade, only DShare clients 0.2.24 or higher can access your wallet.<br><br>If you use other clients, please make sure they are upgraded to the current version.",
+              popup.confirm("Portfolio Upgrade", "DShare is upgrading the account encryption format. After the upgrade, only DShare clients 0.2.24 or higher can access your account.<br><br>If you use other clients, please make sure they are upgraded to the current version.",
                             "OK", "migrateConfirm()", null,
                             "Abort login", null, null,
                             $scope, {});
@@ -147,7 +147,7 @@ LoginTab.prototype.angular = function (module) {
 
       $scope.ajax_loading = true;
       $scope.error = '';
-      $scope.status = 'Fetching wallet...';
+      $scope.status = 'Fetching account...';
     };
 
     $rpTracker.track('Page View', {'Page Name': 'Login'});

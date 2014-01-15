@@ -1,6 +1,6 @@
 include ../menu/wallet.jade
 section.col-xs-12.col-md-10.wide.content(ng-controller="SecurityCtrl")
-  p.important Your money and wallet are protected digitally through encryption algorithms that can be unlocked&nbsp;
+  p.important Your money and account are protected digitally through encryption algorithms that can be unlocked&nbsp;
     b only with your personal keys
   ul.notices
     li – No one else has them, so don't lose them!
@@ -14,7 +14,7 @@ section.col-xs-12.col-md-10.wide.content(ng-controller="SecurityCtrl")
     .more
       span(rp-download='enc',rp-download-filename='dshare-wallet.txt')
         | You can&nbsp;
-        a(href="", rp-download-trigger) backup your wallet to a file
+        a(href="", rp-download-trigger) backup your account to a file
         | .
   ul.description(ng-hide="showKeys")
     li This is the key you use every time you use dshare.
@@ -39,15 +39,15 @@ section.col-xs-12.col-md-10.wide.content(ng-controller="SecurityCtrl")
           ng-hide="passUnmask")
             a(href="", ng-hide="passUnmask") Show
         a(href="", ng-click="passUnmask=false", ng-show="passUnmask") Hide
-  .hint(ng-show="showKeys") This gives access to your wallet. DO NOT SHARE THIS WITH ANYONE. Keep it safe. Keep it private.
+  .hint(ng-show="showKeys") This gives access to your account. DO NOT SHARE THIS WITH ANYONE. Keep it safe. Keep it private.
 
   .title
     .icon.money
     .name Secret Key
   ul.description(ng-hide="showKeys")
     li This key is for emergency use only. You did not choose it. The network created it. You don't have to memorize it.
-    li The Secret Key accesses Your money, which is already contained inside your wallet.
-    li But if you ever lose your wallet, you can recover just your money with this key.
+    li The Secret Key accesses Your money, which is already contained inside your account.
+    li But if you ever lose your account, you can recover just your money with this key.
     li
       b Store it somewhere safe, never share it.
   div

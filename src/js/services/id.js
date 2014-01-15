@@ -55,7 +55,7 @@ module.factory('rpId', ['$rootScope', '$location', '$route', '$routeParams', 'rp
   Id.normalizeUsername = function (username) {
     username = ""+username;
     username = username.trim();
-    //we should display username with same capitalization as how they enter it in open wallet
+    //we should display username with same capitalization as how they enter it in open account
     // toLowerCase used in all blob requests
     // username = username.toLowerCase();
     return username;
